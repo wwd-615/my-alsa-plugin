@@ -445,6 +445,7 @@ static snd_pcm_sframes_t pulse_write(snd_pcm_ioplug_t * io,
 
 	syslog(LOG_NOTICE, "[alsa plugins debug] %s enter\n", __func__);
 
+	// syslog(LOG_NOTICE, "ss = %d\n", pcm->ss.rate);
 	// for (i  = 0; i < 50; i++) {
 	// 	// (areas + i)->
 	// 	syslog(LOG_NOTICE, "[alsa plugins debug] areas data[%d] = 0x%x\n", i, *((unsigned int *)((areas + i)->addr)));
@@ -470,10 +471,14 @@ static snd_pcm_sframes_t pulse_write(snd_pcm_ioplug_t * io,
 
 	writebytes = size * pcm->frame_size;
 
+	syslog(LOG_NOTICE, "[alsa plugins debug] %s: areas->first = 0x%x, areas->step = 0x%x, offset = 0x%x\n",
+					__func__, areas->first, areas->step, offset);
 	syslog(LOG_NOTICE, "[alsa plugins debug] %s: size = 0x%x, pcm->frame_size = 0x%x, writebytes = 0x%x\n",
 					__func__, size, pcm->frame_size, writebytes);
 	
-	syslog(LOG_NOTICE, "[alsa plugins debug] %s: buf = 0x%x\n", __func__, buf[0]);
+	for (i = 0; i < 50; i++)
+		syslog(LOG_NOTICE, "[alsa plugins debug] %s: buf[%d] = 0x%x\n", __func__, i, buf[i]);
+
 	ret = pa_stream_write(pcm->stream, buf, writebytes, NULL, 0, 0);
 	if (ret < 0) {
 		ret = -EIO;

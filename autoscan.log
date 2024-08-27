@@ -1,0 +1,269 @@
+autoscan: warning: missing AC_CHECK_FUNCS([bzero]) wanted by: 
+	arcam-av/arcam_av.c:53
+autoscan: warning: missing AC_CHECK_FUNCS([clock_gettime]) wanted by: 
+	aaf/pcm_aaf.c:560
+	aaf/pcm_aaf.c:582
+autoscan: warning: missing AC_CHECK_FUNCS([floor]) wanted by: 
+	pph/resample.c:226
+autoscan: warning: missing AC_CHECK_FUNCS([memset]) wanted by: 
+	mix/pcm_vdownmix.c:276
+	speex/pcm_speex.c:95
+	speex/pcm_speex.c:129
+	speex/pcm_speex.c:136
+	usb_stream/pcm_usb_stream.c:268
+	a52/pcm_a52.c:192
+	a52/pcm_a52.c:232
+	a52/pcm_a52.c:251
+	a52/pcm_a52.c:758
+autoscan: warning: missing AC_CHECK_FUNCS([munmap]) wanted by: 
+	maemo/dsp-protocol.c:583
+	usb_stream/pcm_usb_stream.c:123
+	usb_stream/pcm_usb_stream.c:124
+	usb_stream/pcm_usb_stream.c:194
+	usb_stream/pcm_usb_stream.c:197
+autoscan: warning: missing AC_CHECK_FUNCS([select]) wanted by: 
+	arcam-av/arcam_av.c:424
+	arcam-av/arcam_av.c:632
+autoscan: warning: missing AC_CHECK_FUNCS([socket]) wanted by: 
+	aaf/pcm_aaf.c:268
+	arcam-av/arcam_av.c:525
+	arcam-av/arcam_av.c:613
+autoscan: warning: missing AC_CHECK_FUNCS([strdup]) wanted by: 
+	oss/ctl_oss.c:388
+	oss/pcm_oss.c:387
+	maemo/alsa-dsp.c:315
+	maemo/dsp-protocol.c:151
+	maemo/dsp-protocol.c:922
+	maemo/dsp-protocol.c:927
+	pulse/pcm_pulse.c:1155
+	pulse/ctl_pulse.c:638
+	pulse/ctl_pulse.c:640
+	pulse/ctl_pulse.c:730
+	pulse/ctl_pulse.c:732
+	pulse/ctl_pulse.c:740
+	pulse/ctl_pulse.c:742
+autoscan: warning: missing AC_CHECK_FUNCS([strtol]) wanted by: 
+	maemo/dsp-protocol.c:957
+autoscan: warning: missing AC_CHECK_HEADERS([arpa/inet.h]) wanted by: 
+	aaf/pcm_aaf.c:23
+autoscan: warning: missing AC_CHECK_HEADERS([fcntl.h]) wanted by: 
+	maemo/dsp-protocol.c:31
+	arcam-av/arcam_av.c:25
+autoscan: warning: missing AC_CHECK_HEADERS([inttypes.h]) wanted by: 
+	aaf/pcm_aaf.c:26
+autoscan: warning: missing AC_CHECK_HEADERS([stdint.h]) wanted by: 
+	aaf/pcm_aaf.c:34
+autoscan: warning: missing AC_CHECK_HEADERS([sys/ioctl.h]) wanted by: 
+	oss/ctl_oss.c:26
+	oss/pcm_oss.c:22
+	aaf/pcm_aaf.c:35
+	maemo/alsa-dsp.c:24
+	maemo/dsp-ctl.c:24
+	maemo/dsp-protocol.c:34
+	usb_stream/pcm_usb_stream.c:25
+autoscan: warning: missing AC_CHECK_HEADERS([sys/socket.h]) wanted by: 
+	jack/pcm_jack.c:29
+	usb_stream/pcm_usb_stream.c:27
+	arcam-av/arcam_av.c:38
+	arcam-av/ctl_arcam_av.c:21
+autoscan: warning: missing AC_CHECK_HEADERS([syslog.h]) wanted by: 
+	pulse/pcm_pulse.c:25
+	pulse/ctl_pulse.c:27
+	myplug/pcm_myplug.c:1
+	myplug/pcm_myplug.c:4
+autoscan: warning: missing AC_CHECK_HEADERS([termios.h]) wanted by: 
+	arcam-av/arcam_av.c:30
+autoscan: warning: missing AC_CHECK_HEADERS([unistd.h]) wanted by: 
+	maemo/dsp-protocol.c:30
+	pulse/pulse.c:24
+	arcam-av/arcam_av.c:31
+	a52/pcm_a52.c:24
+autoscan: warning: missing AC_CHECK_HEADER_STDBOOL wanted by: 
+	jack/pcm_jack.c:67
+	aaf/pcm_aaf.c:700
+	aaf/pcm_aaf.c:721
+	jack/pcm_jack.c:332
+	aaf/pcm_aaf.c:709
+	aaf/pcm_aaf.c:714
+	aaf/pcm_aaf.c:736
+	aaf/pcm_aaf.c:739
+	aaf/pcm_aaf.c:744
+	aaf/pcm_aaf.c:748
+	aaf/pcm_aaf.c:753
+	aaf/pcm_aaf.c:756
+	aaf/pcm_aaf.c:761
+	aaf/pcm_aaf.c:765
+	aaf/pcm_aaf.c:770
+	aaf/pcm_aaf.c:774
+	aaf/pcm_aaf.c:779
+	aaf/pcm_aaf.c:782
+	aaf/pcm_aaf.c:787
+	aaf/pcm_aaf.c:791
+	aaf/pcm_aaf.c:796
+	aaf/pcm_aaf.c:800
+	aaf/pcm_aaf.c:805
+	aaf/pcm_aaf.c:809
+	aaf/pcm_aaf.c:814
+	aaf/pcm_aaf.c:832
+	aaf/pcm_aaf.c:836
+	jack/pcm_jack.c:283
+	aaf/pcm_aaf.c:718
+	aaf/pcm_aaf.c:840
+autoscan: warning: missing AC_C_INLINE wanted by: 
+	mix/pcm_vdownmix.c:199
+	mix/pcm_vdownmix.c:205
+	mix/pcm_upmix.c:49
+	mix/pcm_upmix.c:57
+	speex/pcm_speex.c:54
+	maemo/dsp-protocol.c:78
+	maemo/dsp-protocol.c:79
+	maemo/dsp-protocol.c:80
+	maemo/dsp-protocol.c:1146
+	maemo/dsp-protocol.c:1198
+	maemo/dsp-protocol.c:1231
+	maemo/list.h:39
+	maemo/list.h:57
+	maemo/list.h:70
+	maemo/list.h:82
+	maemo/list.h:93
+	maemo/list.h:104
+	maemo/list.h:115
+	maemo/list.h:126
+	maemo/list.h:137
+	maemo/list.h:142
+	maemo/list.h:161
+	maemo/list.h:174
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	mix/pcm_vdownmix.c:315
+	mix/pcm_upmix.c:414
+	speex/pcm_speex.c:125
+	speex/pcm_speex.c:132
+	aaf/pcm_aaf.c:475
+	aaf/pcm_aaf.c:485
+	aaf/pcm_aaf.c:492
+	aaf/pcm_aaf.c:955
+	maemo/alsa-dsp.c:621
+	maemo/dsp-ctl.c:414
+	a52/pcm_a52.c:710
+	a52/pcm_a52.c:755
+	a52/pcm_a52.c:761
+	a52/pcm_a52.c:854
+	rate/rate_samplerate.c:102
+	rate/rate_samplerate.c:104
+autoscan: warning: missing AC_FUNC_MMAP wanted by: 
+	maemo/dsp-protocol.c:194
+	usb_stream/pcm_usb_stream.c:204
+	usb_stream/pcm_usb_stream.c:229
+autoscan: warning: missing AC_FUNC_REALLOC wanted by: 
+	pph/resample.c:60
+autoscan: warning: missing AC_PROG_CPP wanted by: 
+	ltmain.sh:3378
+autoscan: warning: missing AC_PROG_CXX wanted by: 
+	ltmain.sh:2198
+	ltmain.sh:2657
+	ltmain.sh:2660
+	ltmain.sh:2665
+	ltmain.sh:2665
+	ltmain.sh:2675
+	ltmain.sh:2679
+	ltmain.sh:2682
+	ltmain.sh:2682
+	ltmain.sh:3759
+	ltmain.sh:8637
+	ltmain.sh:8649
+	ltmain.sh:8651
+	ltmain.sh:8886
+autoscan: warning: missing AC_PROG_RANLIB wanted by: 
+	ltmain.sh:3772
+autoscan: warning: missing AC_TYPE_INT16_T wanted by: 
+	rate-lav/rate_lavrate.c:174
+	rate-lav/rate_lavrate.c:176
+	pph/rate_speexrate.c:108
+	pph/rate_speexrate.c:109
+	rate/rate_samplerate.c:185
+	rate/rate_samplerate.c:186
+autoscan: warning: missing AC_TYPE_INT64_T wanted by: 
+	pulse/pcm_pulse.c:46
+autoscan: warning: missing AC_TYPE_SIZE_T wanted by: 
+	oss/ctl_oss.c:237
+	jack/pcm_jack.c:85
+	jack/pcm_jack.c:86
+	aaf/pcm_aaf.c:471
+	pulse/pcm_pulse.c:40
+	pulse/pcm_pulse.c:41
+	pulse/pcm_pulse.c:45
+	pulse/pcm_pulse.c:51
+	pulse/pcm_pulse.c:83
+	pulse/pcm_pulse.c:90
+	pulse/pcm_pulse.c:117
+	pulse/pcm_pulse.c:121
+	pulse/pcm_pulse.c:126
+	pulse/pcm_pulse.c:130
+	pulse/pcm_pulse.c:439
+	pulse/pcm_pulse.c:516
+	pulse/pcm_pulse.c:610
+	arcam-av/ctl_arcam_av.c:372
+autoscan: warning: missing AC_TYPE_SSIZE_T wanted by: 
+	oss/pcm_oss.c:46
+	oss/pcm_oss.c:64
+	aaf/pcm_aaf.c:356
+	aaf/pcm_aaf.c:426
+	aaf/pcm_aaf.c:643
+	aaf/pcm_aaf.c:926
+	aaf/pcm_aaf.c:953
+	aaf/pcm_aaf.c:1032
+	maemo/alsa-dsp.c:139
+	arcam-av/arcam_av.c:75
+	arcam-av/arcam_av.c:99
+autoscan: warning: missing AC_TYPE_UINT32_T wanted by: 
+	aaf/pcm_aaf.c:575
+	aaf/pcm_aaf.c:700
+	aaf/pcm_aaf.c:725
+	aaf/pcm_aaf.c:908
+	pulse/pcm_pulse.c:896
+	pulse/ctl_pulse.c:123
+autoscan: warning: missing AC_TYPE_UINT64_T wanted by: 
+	aaf/pcm_aaf.c:60
+	aaf/pcm_aaf.c:78
+	aaf/pcm_aaf.c:79
+	aaf/pcm_aaf.c:80
+	aaf/pcm_aaf.c:89
+	aaf/pcm_aaf.c:201
+	aaf/pcm_aaf.c:202
+	aaf/pcm_aaf.c:203
+	aaf/pcm_aaf.c:204
+	aaf/pcm_aaf.c:205
+	aaf/pcm_aaf.c:206
+	aaf/pcm_aaf.c:531
+	aaf/pcm_aaf.c:531
+	aaf/pcm_aaf.c:535
+	aaf/pcm_aaf.c:557
+	aaf/pcm_aaf.c:566
+	aaf/pcm_aaf.c:579
+	aaf/pcm_aaf.c:588
+	aaf/pcm_aaf.c:603
+	aaf/pcm_aaf.c:630
+	aaf/pcm_aaf.c:640
+	aaf/pcm_aaf.c:680
+	aaf/pcm_aaf.c:702
+	aaf/pcm_aaf.c:703
+	aaf/pcm_aaf.c:704
+	aaf/pcm_aaf.c:705
+	aaf/pcm_aaf.c:724
+	aaf/pcm_aaf.c:728
+	aaf/pcm_aaf.c:729
+	aaf/pcm_aaf.c:730
+	aaf/pcm_aaf.c:731
+	aaf/pcm_aaf.c:827
+	aaf/pcm_aaf.c:890
+	aaf/pcm_aaf.c:1033
+	aaf/pcm_aaf.c:1035
+	aaf/pcm_aaf.c:1166
+	rate-lav/rate_lavrate.c:205
+	rate-lav/rate_lavrate.c:206
+	rate/rate_samplerate.c:213
+	rate/rate_samplerate.c:214
+autoscan: warning: missing AC_TYPE_UINT8_T wanted by: 
+	aaf/pcm_aaf.c:73
+	rate-lav/rate_lavrate.c:149
+	rate-lav/rate_lavrate.c:150
